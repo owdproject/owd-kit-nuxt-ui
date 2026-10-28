@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { inject, useSlots, computed } from "vue"
-import { useToggleWindowMaximize } from "@owdproject/core/runtime/composables/useToggleWindowMaximize"
+import { useToggleWindowMaximize } from "nuxt-desktop/runtime/composables/useToggleWindowMaximize"
 
 const windowController = inject<any>("windowController")
 const toggleWindowMaximize = useToggleWindowMaximize()
