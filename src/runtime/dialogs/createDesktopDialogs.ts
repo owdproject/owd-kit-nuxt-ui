@@ -4,7 +4,7 @@ import NuxtUIAlertModal from '../components/dialogs/NuxtUIAlertModal.vue'
 import type {
   DesktopConfirmDialogOptions,
   DesktopDialogProvider,
-} from 'nuxt-desktop/runtime/dialogs/desktopDialogProvider'
+} from '@owdproject/nuxt/runtime/dialogs/desktopDialogProvider'
 
 export function createDesktopDialogs(): DesktopDialogProvider {
   return {

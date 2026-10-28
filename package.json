@@ -31,10 +31,16 @@
   "main": "./dist/module.mjs",
   "typesVersions": {
     "*": {
-      ".": ["./dist/types.d.mts"]
+      ".": [
+        "./dist/types.d.mts"
+      ]
     }
   },
-  "files": ["dist", "src/runtime", "src/kit"],
+  "files": [
+    "dist",
+    "src/runtime",
+    "src/kit"
+  ],
   "scripts": {
     "prepack": "nuxt-module-build build",
     "dev": "pnpm run dev:prepare",
@@ -45,8 +51,8 @@
     "@nuxt/kit": "^4.4.4",
     "@nuxt/ui": "^2.21.0",
     "defu": "^6.1.4",
-    "nuxt-desktop": "workspace:*",
-    "vue3-selecto": "^1.12.3"
+    "vue3-selecto": "^1.12.3",
+    "@owdproject/nuxt": "^4.0.0-alpha.3"
   },
   "devDependencies": {
     "@nuxt/module-builder": "^1.0.2",
@@ -58,8 +64,8 @@
   },
   "peerDependencies": {
     "@owdproject/core": ">=4.0.0-alpha.0",
-    "nuxt-desktop": ">=1.0.0",
-    "@owdproject/module-fs": "^0.0.6"
+    "@owdproject/module-fs": "^0.0.6",
+    "@owdproject/nuxt": "^4.0.0-alpha.3"
   },
   "peerDependenciesMeta": {
     "@owdproject/module-fs": {
