@@ -12,7 +12,7 @@ import { registerTailwindPath } from './kit/registerTailwindPath'
 export interface KitNuxtUiModuleOptions {
   /**
    * Register `DesktopExplorer*` components (Workspace, FileEntry, …).
-   * Requires `@owdproject/module-fs` in the app when enabled (default).
+   * Requires `@owdproject/module-nuxt-fs` in the app when enabled (default).
    * Set `false` for Nuxt UI + dialogs only.
    */
   explorer?: boolean

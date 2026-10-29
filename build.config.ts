@@ -6,7 +6,7 @@ export default defineBuildConfig({
     '@nuxt/kit',
     '@nuxt/schema',
     '@owdproject/core',
-    '@owdproject/module-fs',
+    '@owdproject/module-nuxt-fs',
     'vue3-selecto',
     '@nuxt/ui',
     'vue',
