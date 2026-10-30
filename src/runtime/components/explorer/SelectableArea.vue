@@ -1,8 +1,8 @@
 <script setup lang="ts">
 import { ref, onMounted, useTemplateRef, computed, watch } from 'vue'
 import { VueSelecto } from 'vue3-selecto'
-import { useExplorerExternalDrop } from '@owdproject/module-nuxt-fs/runtime/composables/useExplorerExternalDrop'
-import { explorerEntryAbsolutePath } from '@owdproject/module-nuxt-fs/runtime/utils/utilExplorerEntryPath'
+import { useExplorerExternalDrop } from '@owdproject/nuxt-module-fs/runtime/composables/useExplorerExternalDrop'
+import { explorerEntryAbsolutePath } from '@owdproject/nuxt-module-fs/runtime/utils/utilExplorerEntryPath'
 
 const props = defineProps({
   fsExplorer: { type: Object, required: true },

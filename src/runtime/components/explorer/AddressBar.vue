@@ -3,7 +3,7 @@ import { ref, watch } from 'vue'
 import {
   formatExplorerDisplayPath,
   parseExplorerVfsPath,
-} from '@owdproject/module-nuxt-fs/runtime/utils/utilExplorerDisplayPath'
+} from '@owdproject/nuxt-module-fs/runtime/utils/utilExplorerDisplayPath'
 
 const props = defineProps({
   address: { type: String, required: true },

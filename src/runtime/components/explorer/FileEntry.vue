@@ -1,11 +1,11 @@
 <script setup lang="ts">
-import { explorerEntryAbsolutePath } from "@owdproject/module-nuxt-fs/runtime/utils/utilExplorerEntryPath";
-import { fetchExplorerEntryMetadata } from "@owdproject/module-nuxt-fs/runtime/utils/utilExplorerEntryMetadata";
+import { explorerEntryAbsolutePath } from "@owdproject/nuxt-module-fs/runtime/utils/utilExplorerEntryPath";
+import { fetchExplorerEntryMetadata } from "@owdproject/nuxt-module-fs/runtime/utils/utilExplorerEntryMetadata";
 import { ref, computed, watch } from "vue";
 import FileContextMenu from "./FileContextMenu.vue";
 import FileIcon from "./FileIcon.vue";
-import { useExplorerInternalDrag } from "@owdproject/module-nuxt-fs/runtime/composables/useExplorerInternalDrag";
-import { useExplorerFolderDropTarget } from "@owdproject/module-nuxt-fs/runtime/composables/useExplorerFolderDropTarget";
+import { useExplorerInternalDrag } from "@owdproject/nuxt-module-fs/runtime/composables/useExplorerInternalDrag";
+import { useExplorerFolderDropTarget } from "@owdproject/nuxt-module-fs/runtime/composables/useExplorerFolderDropTarget";
 
 const props = defineProps({
   basePath: { type: String, required: true },

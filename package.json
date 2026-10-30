@@ -1,7 +1,7 @@
 {
-  "name": "@owdproject/kit-nuxt-ui",
+  "name": "@owdproject/nuxt-kit-ui",
   "version": "4.0.0-alpha.3",
-  "description": "Nuxt UI for OWD themes: dialogs (always) and optional DesktopExplorer* UI (requires @owdproject/module-nuxt-fs; use { explorer: false } for dialogs only).",
+  "description": "Nuxt UI for OWD themes: dialogs (always) and optional DesktopExplorer* UI (requires @owdproject/nuxt-module-fs; use { explorer: false } for dialogs only).",
   "license": "MIT",
   "type": "module",
   "exports": {
@@ -58,17 +58,17 @@
     "@nuxt/module-builder": "^1.0.2",
     "@nuxt/schema": "^4.4.4",
     "@owdproject/core": "^4.0.0-alpha.3",
-    "@owdproject/module-nuxt-fs": "^4.0.0-alpha.3",
+    "@owdproject/nuxt-module-fs": "^4.0.0-alpha.3",
     "nuxt": "^4.4.4",
     "typescript": "catalog:"
   },
   "peerDependencies": {
     "@owdproject/core": "^4.0.0-alpha.3",
-    "@owdproject/module-nuxt-fs": "^4.0.0-alpha.3",
+    "@owdproject/nuxt-module-fs": "^4.0.0-alpha.3",
     "@owdproject/nuxt": "^4.0.0-alpha.3"
   },
   "peerDependenciesMeta": {
-    "@owdproject/module-nuxt-fs": {
+    "@owdproject/nuxt-module-fs": {
       "optional": true
     }
   },
